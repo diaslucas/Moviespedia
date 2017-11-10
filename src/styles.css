@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+a,a:hover,a:focus,a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner{
+    margin-bottom: 50px;
+    background-color: #ddd;
+}
+
+.img-title{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mb-box{
+    margin-bottom: 20px;
+}
+
+.default-animation:hover{
+    box-shadow: 0px 0px 3px transparent;
+    -webkit-box-shadow: 0px 3px 0px transparent;
+    -moz-box-shadow: 0px 0px 3px transparent;
+    transform: translate(0,-4px);
+    -webkit-transform: translate(0,-4px);
+}
+
+.mb-box img{
+    max-height: 144px;
+}
+
+
+.img-title-bigger{
+    width: 25px;
+    left: 105px;
+}
+
+
+.dark-row{
+    background-color: #000;
+    background: url(http://s3.amazonaws.com/digitaltrends-uploads-prod/2013/08/dexter.jpg) left no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-brand{
+    color: #7a00ff;
+}
+
+footer{
+    padding: 20px 0;
+    color: #fff;
+    background-color: #895db9;
+}
+
+.default-list{
+    list-style: none;
+    padding: 0;
+}
