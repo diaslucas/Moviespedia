@@ -7,8 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 
 export class BannerComponent {
-    
+
   @Input() urlImg: string = 'https://www.wpromote.com/img/case_study/silicon_valley_piper_boys.png';
 
 }
+
 
