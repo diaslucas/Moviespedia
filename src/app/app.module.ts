@@ -9,14 +9,20 @@ import { MenuComponent } from "./menu/menu.component";
 import { BannerComponent } from "./banner/banner.component";
 import { FooterComponent } from "./footer/footer.component";
 import { DetailsComponent } from "./details/details.component";
+import { routing } from "./app.routes"
 
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent, DetailsComponent, MenuComponent, BannerComponent, FooterComponent
+    AppComponent,
+    HomeComponent,
+    DetailsComponent,
+    MenuComponent,
+    BannerComponent,
+    FooterComponent,
   ],
   imports: [
-    BrowserModule, BsDropdownModule.forRoot()
+    BrowserModule, BsDropdownModule.forRoot(), routing
   ],
   providers: [],
   bootstrap: [AppComponent]

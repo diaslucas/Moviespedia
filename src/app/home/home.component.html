@@ -1,3 +1,4 @@
+<banner></banner>
 
 <div class="container">
     <div class="row">
@@ -5,7 +6,7 @@
         <h3>Movies</h3>
         <div class="row">
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg" class="rounded img-fluid">
               <div class="img-title">
                 Thor Ragnarok
@@ -13,7 +14,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg" class="rounded img-fluid">
               <div class="img-title">
                 Thor Ragnarok
@@ -21,7 +22,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg" class="rounded img-fluid">
               <div class="img-title">
                 Blade Runner
@@ -29,7 +30,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg" class="rounded img-fluid">
               <div class="img-title">
                 Blade Runner
@@ -42,7 +43,7 @@
         <h3>TV Shows</h3>
         <div class="row">
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/h1qyblc5p9G3ZWIVK8ZrkpxcXgO.jpg" class="rounded img-fluid">
               <div class="img-title">
                 The Walking Dead
@@ -50,7 +51,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/nGsNruW3W27V6r4gkyc3iiEGsKR.jpg" class="rounded img-fluid">
               <div class="img-title">
                 The Big Bang Theory
@@ -58,7 +59,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mmxxEpTqVdwBlu5Pii7tbedBkPC.jpg" class="rounded img-fluid">
               <div class="img-title">
                 The Flash
@@ -66,7 +67,7 @@
             </a>
           </div>
           <div class="col-sm-6 mb-box default-animation">
-            <a href="#">
+            <a [routerLink]="['/details']">
               <img #img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg" class="rounded img-fluid d-block mx-auto"
                 (load)="adaptImg(img,title)">
               <span #title class="img-title {{className}}">
@@ -87,7 +88,7 @@
           <h3>Top Rated Movies</h3>
           <div class="row">
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   Thor Ragnarok
@@ -95,7 +96,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   Thor Ragnarok
@@ -103,7 +104,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   Blade Runner
@@ -111,7 +112,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   Blade Runner
@@ -124,7 +125,7 @@
           <h3>Top Rated TV Shows</h3>
           <div class="row">
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w500_and_h281_bestv2/h1qyblc5p9G3ZWIVK8ZrkpxcXgO.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   The Walking Dead
@@ -132,7 +133,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/nGsNruW3W27V6r4gkyc3iiEGsKR.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   The Big Bang Theory
@@ -140,7 +141,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img src="https://image.tmdb.org/t/p/w250_and_h141_bestv2/mmxxEpTqVdwBlu5Pii7tbedBkPC.jpg" class="rounded img-fluid">
                 <div class="img-title">
                   The Flash
@@ -148,7 +149,7 @@
               </a>
             </div>
             <div class="col-sm-6 mb-box default-animation">
-              <a href="#">
+              <a [routerLink]="['/details']">
                 <img #img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg" class="rounded img-fluid d-block mx-auto"
                   (load)="adaptImg(img,title)">
                 <span #title class="img-title {{className}}">
