@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 
 export class MenuComponent {
     
-
+ariaExpanded: string = 'false';
+isCollapsed: boolean = true;
+show: string = 'show';
 
 }
 

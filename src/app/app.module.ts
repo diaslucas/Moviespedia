@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BsDropdownModule } from 'ngx-bootstrap';
 
 
 import { AppComponent } from './app.component';
@@ -22,7 +21,7 @@ import { routing } from "./app.routes"
     FooterComponent,
   ],
   imports: [
-    BrowserModule, BsDropdownModule.forRoot(), routing
+    BrowserModule, routing
   ],
   providers: [],
   bootstrap: [AppComponent]
